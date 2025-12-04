@@ -1,0 +1,52 @@
+# ===========================
+# Global
+# ===========================
+.DS_Store
+*.log
+*.tmp
+
+# ===========================
+# Python / FastAPI Backend
+# ===========================
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/.env
+backend/.env.*
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/.coverage
+
+# SQLAlchemy sqlite DB
+backend/*.db
+backend/**/*.db
+
+# Chroma vector DB
+backend/chroma/
+backend/.chroma/
+backend/chroma_db/
+backend/chroma_store/
+
+# ===========================
+# Node / React + Vite Frontend
+# ===========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+
+# ===========================
+# VSCode, IDEs
+# ===========================
+.vscode/
+.idea/
+*.iml
+
+# ===========================
+# OS-specific
+# ===========================
+Thumbs.db
