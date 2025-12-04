@@ -1,5 +1,5 @@
 
-# 🚀 AI Incident Assistant  
+#  AI Incident Assistant  
 ### _AI-powered multi-agent platform for incident analysis, log intelligence, and root-cause automation_
 
 This repository contains a **full-stack production-grade AI system** that analyzes infrastructure incidents using **LLMs, multi-agent orchestration, RAG, vector search, and long‑term memory**.
@@ -17,7 +17,7 @@ This project is structured and polished specifically for hackathon/demo scenario
 
 ---
 
-# 🧠 Problem Statement
+#  Problem Statement
 
 Modern infrastructure teams handle complex incidents daily:
 
@@ -44,9 +44,9 @@ An **AI-powered incident assistant** that:
 
 ---
 
-# ✨ Features
+#  Features
 
-## 🧩 1. Multi-Agent Architecture
+##  1. Multi-Agent Architecture
 The backend orchestrates **5 specialized agents**:
 
 | Agent | Description |
@@ -61,7 +61,7 @@ Agents collaborate to produce a single final answer.
 
 ---
 
-## 📚 2. RAG (Retrieval Augmented Generation)
+##  2. RAG (Retrieval Augmented Generation)
 
 Uses **ChromaDB** for:
 
@@ -87,7 +87,7 @@ Supports:
 
 ---
 
-## 📘 4. Knowledge Base Upload
+##  4. Knowledge Base Upload
 
 Upload your own:
 
@@ -100,14 +100,14 @@ These documents are chunked and stored in vector DB.
 
 ---
 
-## 🧠 5. Long-Term Memory
+##  5. Long-Term Memory
 
 Every chat session is stored.  
 Older messages are summarized and stored in long-term memory via Chroma.
 
 ---
 
-## 🕒 6. Incident Timeline Generation
+##  6. Incident Timeline Generation
 
 Timeline agent stitches chronological flow like:
 
@@ -120,7 +120,7 @@ t3: Root cause detected: DB connection pool saturation
 
 ---
 
-## 📊 7. LLM Performance Tracking (Metrics Dashboard)
+##  7. LLM Performance Tracking (Metrics Dashboard)
 
 Tracks:
 
@@ -135,7 +135,7 @@ Visible in the UI.
 
 ---
 
-# 🏗️ Architecture Overview
+#  Architecture Overview
 
 ```
 ai-incident-assistant/
@@ -159,7 +159,7 @@ ai-incident-assistant/
 
 ---
 
-# 🔐 Environment Setup
+#  Environment Setup
 
 ## Backend `.env`  
 Create `backend/.env`:
@@ -180,9 +180,9 @@ VITE_API_BASE_URL=http://localhost:8000
 
 ---
 
-# ▶️ Running the Project
+#  Running the Project
 
-## 🟦 Backend
+##  Backend
 
 ```bash
 cd backend
@@ -193,11 +193,11 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 Open docs:  
-👉 http://localhost:8000/docs
+ http://localhost:8000/docs
 
 ---
 
-## 🟩 Frontend
+##  Frontend
 
 ```bash
 cd frontend
@@ -206,11 +206,11 @@ npm run dev
 ```
 
 Frontend:  
-👉 http://localhost:5173/
+ http://localhost:5173/
 
 ---
 
-# 🧪 Demo Flow (Ideal for Hackathon Judges)
+#  Demo Flow (Ideal for Hackathon Judges)
 
 ### 1. Create an Incident
 Left menu → click **+ New**
@@ -273,7 +273,7 @@ Shows performance of all LLM calls.
 
 ---
 
-# 📚 Tech Stack
+#  Tech Stack
 
 | Layer | Tech |
 |-------|------|
@@ -286,12 +286,12 @@ Shows performance of all LLM calls.
 
 ---
 
-# 📄 License  
+#  License  
 Personal side project. No license attached.
 
 ---
 
-# ❤️ Made for Hackathons  
+#  Made for Hackathons  
 Designed to impress with:
 
 - Full-stack development  
@@ -303,7 +303,7 @@ Designed to impress with:
 
 ---
 
-# 📸 Screenshots (Add Later)
+#  Screenshots (Add Later)
 
 Place your screenshots under `/screenshots`:
 
